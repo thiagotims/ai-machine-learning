@@ -38,7 +38,7 @@ O objetivo é explorar o impacto de diferentes hiperparâmetros nos resultados d
 
 ## 📁 Estrutura dos Arquivos
 
-- `on-git_MLFlow_RF.md`: script principal com todo o pipeline de execução;
+- `MLFlow_RF.ipynb`: script principal com todo o pipeline de execução;
 - `confusionrf.png` e `rocfr.png`: imagens salvas de gráficos durante os experimentos;
 - Modelos e métricas são armazenados no **tracking server** do MLflow.
 
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 3. Execute o script:
 
 ```bash 
-python on-git_MLFlow_RF.md
+python MLFlow_RF.ipynb
 ``` 
 4. Visualize os experimentos:
 
@@ -70,18 +70,21 @@ mlflow ui
 ``` 
 ---
 
-#### 📈 Exemplo de Saída
+## 📈 Exemplo de Saída
 
 📊 Top 5 modelos por acurácia:
-   n_estimators  max_depth  min_samples_split  acuracia
-   ...           ...        ...                ...
+   
+   |n_estimators|  max_depth|  min_samples_split | acuracia| ...|
+|----|----|----|----|---|
+   |...|           ...|        ...|                ...| ...|
 
 ✅ Melhor modelo com base em acurácia:
-n_estimators: 100
-max_depth: None
-min_samples_split: 5
-acuracia: 0.7733
-run_id: a1a363ce68ba4ebc83b609269a657a8c
+
+- n_estimators: 100
+- max_depth: None
+- min_samples_split: 5
+- acuracia: 0.7733
+- run_id: a1a363ce68ba4ebc83b609269a657a8c
 
 📦 Modelo registrado no MLflow com nome 'MelhorModeloRF'
 
