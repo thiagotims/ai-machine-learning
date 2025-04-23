@@ -42,3 +42,5 @@ Ideal para quem deseja implementar boas práticas de MLOps mesmo em projetos de 
 
 - `MLFlow_Keras.ipynb`: notebook principal com todo o código comentado.
 - `README.md`: descrição do projeto e instruções de uso.
+- `acuracia.png`: gráfico com a evolução da acurácia nos conjuntos de validação.
+- `loss.png`: gráfico com a evolução das perdas no conjunto de validação.
