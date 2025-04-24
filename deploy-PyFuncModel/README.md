@@ -8,6 +8,8 @@ Ideal para notebooks exploratórios, testes offline ou integração com pipeline
 
 > ✅ Esta versão **não utiliza `requests` ou `mlflow models serve`** — o modelo é carregado diretamente e utilizado via código.
 
+O modelo servido encontra-se em 📁 [MLFlow-RF](https://github.com/thiagotims/ai-machine-learning/tree/main/MLFlow-RF)
+
 ---
 
 ## ✨ Como utilizar o modelo
