@@ -36,8 +36,7 @@ Certifique-se de ter as seguintes ferramentas instaladas:
    Substitua `<ID_DO_MODELO>` pelo ID da execução (`run_id`) do seu modelo:
 
    ```bash
-   mlflow models serve -m mlruns/caminho/do/modelo --no-conda -p 2345
-
+   mlflow models serve -m mlruns/0/<ID_DO_MODELO>/artifacts/model --no-conda -p 2345
    ```
 
    > ⚠️ **Importante:**  
