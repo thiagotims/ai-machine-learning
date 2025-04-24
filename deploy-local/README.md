@@ -4,6 +4,8 @@
 
 Este projeto demonstra como servir um modelo de Machine Learning treinado com **MLflow** para prever risco de crédito, utilizando uma API local. Ideal para fins educacionais, a aplicação mostra como fazer o deploy de forma prática, leve e sem depender de ambientes virtuais automatizados.
 
+O modelo servido está em 📁 [MLFlow-RF](https://github.com/thiagotims/ai-machine-learning/tree/main/MLFlow-RF)
+
 ---
 
 ## ✨ Como servir o modelo
