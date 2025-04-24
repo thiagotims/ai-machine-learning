@@ -10,6 +10,8 @@ Ideal para notebooks exploratórios, testes offline ou integração com pipeline
 
 O modelo servido encontra-se em 📁 [MLFlow-RF](https://github.com/thiagotims/ai-machine-learning/tree/main/MLFlow-RF)
 
+O deploy do mesmo modelo utilizando API local encontra-se em 📁 [deploy-local]()
+
 ---
 
 ## ✨ Como utilizar o modelo
@@ -72,7 +74,7 @@ Certifique-se de ter:
 
 ---
 
-## 🔄 Diferença para a versão anterior (API Local)
+## 🔄 Diferença para a versão com API Local
 
 | Característica           | API Local (requests)                                | PyFuncModel (local direto)                      |
 |--------------------------|-----------------------------------------------------|-------------------------------------------------|
