@@ -10,7 +10,7 @@ Ideal para notebooks exploratórios, testes offline ou integração com pipeline
 
 O modelo servido encontra-se em 📁 [MLFlow-RF](https://github.com/thiagotims/ai-machine-learning/tree/main/MLFlow-RF)
 
-O deploy do mesmo modelo utilizando API local encontra-se em 📁 [deploy-local]()
+O deploy do mesmo modelo utilizando API local encontra-se em 📁 [deploy-local](https://github.com/thiagotims/ai-machine-learning/tree/main/deploy-local)
 
 ---
 
