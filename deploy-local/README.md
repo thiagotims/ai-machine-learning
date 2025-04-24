@@ -21,8 +21,8 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 1. **Clone este repositório e acesse a pasta do projeto:**
 
    ```bash
-   git clone https://github.com/seu-usuario/mlflow-credit-scoring.git
-   cd mlflow-credit-scoring
+   git clone github.com/thiagotims/ai-machine-learning/tree/main/deploy-local.git
+   cd deploy-local
    ```
 
 2. **Instale as dependências do projeto (se aplicável):**
