@@ -15,3 +15,6 @@
  #### 📌 MLflow Credit Scoring: Deploy de Modelo com API Local (📁 deploy-local)
  (MLflow Credit Scoring: Deploying a Model with a Local API)
  - This project demonstrates how to serve a Machine Learning model trained with MLflow to predict credit risk, using a local API. Ideal for educational purposes, the application shows how to deploy it in a practical, lightweight way and without relying on automated virtual environments.
+
+#### 📌 MLflow Credit Scoring: Deploy via PyFuncModel (📁 deploy-PyFuncModel)
+- This project demonstrates an alternative approach to using Machine Learning models trained with MLflow, making predictions directly in Python with the PyFuncModel interface, without the need for a local API.
