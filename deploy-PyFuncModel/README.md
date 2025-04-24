@@ -28,8 +28,8 @@ Certifique-se de ter:
 1. **Clone o repositório e acesse a pasta:**
 
    ```bash
-   git clone github.com/thiagotims/ai-machine-learning/tree/main/deploy-pyfunc
-   cd deploy-pyfunc
+   git clone github.com/thiagotims/ai-machine-learning/tree/main/deploy-PyFuncModel
+   cd deploy-PyFuncModel
    ```
 
 2. **Instale as dependências:**
