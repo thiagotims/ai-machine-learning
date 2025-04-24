@@ -1,96 +1,17 @@
-# 🎯 **MLflow Credit Scoring: Deploy via PyFuncModel**
 
-## 📝 Descrição
-
-Este projeto mostra uma abordagem alternativa para utilizar modelos de Machine Learning treinados com **MLflow**, realizando **previsões diretamente em Python** com a interface `PyFuncModel`, **sem necessidade de uma API local**.
-
-Ideal para notebooks exploratórios, testes offline ou integração com pipelines Python puros, essa abordagem é simples, eficiente e mantém a consistência dos ambientes definidos durante o treino e logging do modelo.
-
-> ✅ Esta versão **não utiliza `requests` ou `mlflow models serve`** — o modelo é carregado diretamente e utilizado via código.
-
----
-
-## ✨ Como utilizar o modelo
-
-### Pré-requisitos
-
-Certifique-se de ter:
-
-- Python (≥ 3.12)
-- MLflow (≥ 2.0)
-- Um modelo salvo com `mlflow.sklearn`
-- Dataset de entrada compatível (`Credit.csv`)
-
----
-
-### Passos
-
-1. **Clone o repositório e acesse a pasta:**
-
-   ```bash
-   git clone github.com/thiagotims/ai-machine-learning/tree/main/deploy-pyfunc
-   cd deploy-pyfunc
-   ```
-
-2. **Instale as dependências:**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Carregue o modelo como PyFuncModel e execute previsões:**
-
-   ```python
-   import mlflow
-   import pandas as pd
-
-   # Caminho do modelo salvo
-   model_uri = "runs:/<RUN_ID>/ModeloRF"
-
-   # Carrega modelo
-   loaded_model = mlflow.pyfunc.load_model(model_uri)
-
-   # Pré-processa o dataset
-   credito = pd.read_csv("Credit.csv")
-   for col in credito.columns:
-       if credito[col].dtype == 'object':
-           credito[col] = credito[col].astype('category').cat.codes
-
-   # Seleciona dados de entrada
-   input_data = credito.iloc[0:5, 0:20]
-
-   # Faz a previsão
-   predicoes = loaded_model.predict(input_data)
-
-   # Exibe os resultados
-   resultado = pd.DataFrame(predicoes, columns=["Previsão"])
-   resultado.index.name = "ID da Amostra"
-   print(resultado)
-   ```
-
----
-
-## 🔄 Diferença para a versão anterior (API Local)
-
-| Característica           | API Local (requests)                                | PyFuncModel (local direto)                      |
-|--------------------------|-----------------------------------------------------|-------------------------------------------------|
-| Forma de uso             | Envia JSON para um servidor local                   | Usa diretamente no Python                       |
-| Dependência de API       | Requer rodar `mlflow models serve`                  | Não precisa servir o modelo                     |
-| Comunicação              | Via HTTP (`requests.post`)                          | Funções nativas do MLflow                       |
-| Uso ideal                | Integração com frontend / serviços web              | Notebooks, testes offline, pipelines Python     |
-
----
-
-## 📦 Ficha Técnica
-
-| 🔍 **Item**             | 📄 **Descrição**                                                 |
-|-------------------------|------------------------------------------------------------------|
-| **🛠️ Tecnologias**      | Python, Pandas, MLflow, Scikit-learn                             |
-| **📦 Dependências**     | pandas, scikit-learn, mlflow                                     |
-| **⚙️ Funcionalidade**   | Previsão direta com modelo Random Forest via PyFuncModel         |
-| **📌 Modelo Utilizado** | Random Forest Classifier                                         |
-| **🧪 Dataset**          | Credit.csv (features categóricas e numéricas)                    |
-| **🚀 Carregamento**     | Via `mlflow.pyfunc.load_model`                                   |
-| **🧑‍🧳 Formato de entrada**| DataFrame Pandas com colunas preprocessadas                     |
-
-
+ This repository contains studies and projects of machine learning and artificial intelligence.
+ 
+ #### 📌 Neural Networks (basics) - Curso NLP (USP).ipynb
+ - File with activities from list 2 of the course Neural Processing of Natural Language (USP/Coursera). Content: basics in neural networks.
+ 
+ #### 📌 Random Forest com MLflow: Registro e Comparação de Modelos em Classificação de Crédito (📁 MLFlow-RF)
+ (Random Forest with MLflow: Registration and Comparison of Models in Credit Classification)
+ - This project implements a complete binary classification pipeline with Random Forest applied to the German Credit database. The focus is on traceability and comparative analysis of multiple model runs using MLflow. The goal is to explore the impact of different hyperparameters on model results and automatically record these variations with MLflow, enabling comparison and tracking of the best results. The final model is selected based on accuracy and automatically registered in the Model Registry.
+ 
+ #### 📌 Monitoramento de Treinamento com MLflow em Redes Neurais Keras (📁 MLFlow_NNs_Keras)
+ (Training Monitoring with MLflow on Keras Neural Networks)
+ - This project demonstrates how to integrate MLflow to track and monitor the training of a neural network built with Keras (via TensorFlow) using the MNIST dataset. The application demonstrates the use of autologging to automatically record parameters, metrics, model, and visualizations, with a focus on ease of reproducibility and transparency in machine learning experiments.
+ 
+ #### 📌 MLflow Credit Scoring: Deploy de Modelo com API Local (📁 deploy-local)
+ (MLflow Credit Scoring: Deploying a Model with a Local API)
+ - This project demonstrates how to serve a Machine Learning model trained with MLflow to predict credit risk, using a local API. Ideal for educational purposes, the application shows how to deploy it in a practical, lightweight way and without relying on automated virtual environments.
