@@ -18,3 +18,7 @@
 
 #### 📌 MLflow Credit Scoring: Deploy via PyFuncModel (📁 deploy-PyFuncModel)
 - This project demonstrates an alternative approach to using Machine Learning models trained with MLflow, making predictions directly in Python with the PyFuncModel interface, without the need for a local API.
+
+#### 📌 Redução de Dimensionalidade em Imagens (📁 img-dimensionality-reduction)
+(Dimensionality Reduction in Images)
+- This Python project performs transformations on color images, reducing the amount of visual information through two main operations: conversion to grayscale and binarization (black and white). The goal is to demonstrate how to reduce the complexity of images to facilitate analysis or further processing, without relying on complex image processing libraries beyond native Python and PIL for basic manipulation. This project was implemented as part of the BairesDev - Machine Learning Training course project challenge, promoted by BairesDev in partnership with Dio.
