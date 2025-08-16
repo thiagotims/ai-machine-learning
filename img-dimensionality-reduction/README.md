@@ -34,7 +34,7 @@ O projeto inclui **duas versões do código**:
 
 1. Clone este repositório:
 ```bash
-git clone https://github.com/thiagotims/ai-machine-learning/img-dimensionality-reduction.git)
+git clone https://github.com/thiagotims/ai-machine-learning/img-dimensionality-reduction.git
 ```
 
 2. Instale as dependências (Python 3, Pillow, Matplotlib):
