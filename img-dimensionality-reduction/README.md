@@ -54,8 +54,8 @@ python image_transform.py
     - `main_binaria()`
     - `main_comparacao()`
 ## Resultados
-1. Imagem transformada: 
-2. Imagem transformada (com luminância): 
+1. Imagem transformada: [image-transformed.png](https://github.com/thiagotims/ai-machine-learning/blob/main/img-dimensionality-reduction/image-transformed.png)
+2. Imagem transformada (com luminância): [image-transformed(luminance).png](https://github.com/thiagotims/ai-machine-learning/blob/main/img-dimensionality-reduction/image-transformed(luminance).png)
 
 
 
