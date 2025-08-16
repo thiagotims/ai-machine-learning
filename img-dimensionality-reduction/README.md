@@ -44,7 +44,7 @@ pip install pillow matplotlib
 
 3. Execute o script principal:
 ```bash
-python nome_do_arquivo.py
+python image_transform.py
 ```
 
 4. Escolha a imagem desejada na caixa de seleção.
