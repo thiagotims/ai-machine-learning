@@ -53,6 +53,12 @@ python image_transform.py
     - `main_cinza()`
     - `main_binaria()`
     - `main_comparacao()`
+## Resultados
+1. Imagem transformada: 
+2. Imagem transformada (com luminância): 
+
+
+
 ## Observações
 - A versão com **luminância perceptiva** oferece resultados mais próximos da percepção visual humana, pois pondera o canal verde mais fortemente, refletindo a sensibilidade do olho.
 - O projeto utiliza **Python nativo** para o cálculo da escala de cinza e binarização, sem recorrer a funções prontas de bibliotecas de processamento de imagem.
