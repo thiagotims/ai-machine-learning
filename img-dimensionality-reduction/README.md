@@ -34,7 +34,7 @@ O projeto inclui **duas versões do código**:
 
 1. Clone este repositório:
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone img-dimensionality-reduction
 ```
 
 2. Instale as dependências (Python 3, Pillow, Matplotlib):
