@@ -94,11 +94,11 @@ Legenda:
 
 ### Sliders para definição da matriz de confusão:
 
-![Exemplo de sliders](https://chatgpt.com/c/imagens/sliders.png)
+![Exemplo de sliders](https://github.com/thiagotims/ai-machine-learning/blob/main/evaluation-metrics-ML/images/sliders.png)
 
 ### Saída da matriz de confusão (heatmap):
 
-![Exemplo de heatmap](https://chatgpt.com/c/imagens/heatmap.png)
+![Exemplo de heatmap](https://github.com/thiagotims/ai-machine-learning/blob/main/evaluation-metrics-ML/images/heatmap.png)
 
 ### Saída das métricas calculadas:
 
