@@ -126,4 +126,4 @@ Ideal para estudantes e profissionais que desejam compreender melhor as métrica
 
 ## ✨ Autor
 
-Esse projeto foi desenvolvido como exercício de aprendizado no âmbito do desafio de projeto do curso BairesDev - Machine Learning Training promovido pela BairesDev em parceria com a Dio.
+Esse projeto foi desenvolvido como exercício de aprendizado no âmbito do desafio de projeto do curso BairesDev - Machine Learning Training promovido pela BairesDev em parceria com a Dio. O uso desse código é livre.
