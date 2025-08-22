@@ -1,6 +1,6 @@
 # 📊 Cálculo de Métricas de Avaliação de Aprendizado
 
-Este projeto demonstra como calcular as principais métricas utilizadas na avaliação de modelos de **classificação**. Além disso, utiliza uma **matriz de confusão interativa** (com sliders no Jupyter Notebook) para permitir a visualização e experimentação dos resultados em tempo real.
+Este projeto demonstra como calcular as principais métricas utilizadas na avaliação de modelos de Machine Learning. Além disso, utiliza uma **matriz de confusão interativa** (com sliders no Jupyter Notebook) para permitir a visualização e experimentação dos resultados em tempo real.
 
 ---
 
@@ -55,8 +55,8 @@ Legenda:
 ## 📂 Estrutura do Projeto
 
 ```
-📦 metricas-avaliacao
- ┣ 📜 metricas_classificacao.ipynb   # Notebook com código do projeto
+📦 evaluation-metrics-ML
+ ┣ 📜 evaluation_metrics.ipynb   # Notebook com código do projeto
  ┣ 📜 README.md                       # Documentação do projeto
  ┣ 📂 imagens                         # Pasta com prints de execução
      ┣ sliders.png
@@ -70,7 +70,7 @@ Legenda:
 1. Clone este repositório:
     
     ```bash
-    git clone https://github.com/seu-usuario/metricas-avaliacao.git
+    git clone https://github.com/thiagotims/evaluation-metrics-ML.git
     ```
     
 2. Instale as dependências:
