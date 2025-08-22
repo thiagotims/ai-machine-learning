@@ -22,3 +22,7 @@
 #### 📌 Redução de Dimensionalidade em Imagens (📁 img-dimensionality-reduction)
 (Dimensionality Reduction in Images)
 - This Python project performs transformations on color images, reducing the amount of visual information through two main operations: conversion to grayscale and binarization (black and white). The goal is to demonstrate how to reduce the complexity of images to facilitate analysis or further processing, without relying on complex image processing libraries beyond native Python and PIL for basic manipulation. This project was implemented as part of the *BairesDev - Machine Learning Training* course project challenge, promoted by BairesDev in partnership with Dio.
+
+#### 📌 Cálculo de Métricas de Avaliação de Aprendizado em Machine Learning (📁 evaluation-metrics-ML)
+(Calculating Machine Learning Evaluation Metrics)
+- This project demonstrates how to calculate the main metrics used in evaluating Machine Learning models. It also uses an interactive confusion matrix (with sliders in Jupyter Notebook) to allow visualization and experimentation of the results in real time. This project was implemented as part of the *BairesDev - Machine Learning Training* course project challenge, promoted by BairesDev in partnership with Dio.
