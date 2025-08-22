@@ -58,7 +58,7 @@ Legenda:
 📦 evaluation-metrics-ML
  ┣ 📜 evaluation_metrics.ipynb   # Notebook com código do projeto
  ┣ 📜 README.md                       # Documentação do projeto
- ┣ 📂 imagens                         # Pasta com prints de execução
+ ┣ 📂 images                         # Pasta com prints de execução
      ┣ sliders.png
      ┣ heatmap.png
 ```
@@ -126,4 +126,4 @@ Ideal para estudantes e profissionais que desejam compreender melhor as métrica
 
 ## ✨ Autor
 
-Projeto desenvolvido como exercício de aprendizado em Python e análise de métricas de classificação.
+Esse projeto foi desenvolvido como exercício de aprendizado no âmbito do desafio de projeto do curso BairesDev - Machine Learning Training promovido pela BairesDev em parceria com a Dio.
