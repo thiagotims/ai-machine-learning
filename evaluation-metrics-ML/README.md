@@ -104,14 +104,14 @@ Legenda:
 
 ```
 Matriz de Confusão:
-VP = 50, FN = 10, FP = 5, VN = 35
+VP = 4, FN = 93, FP = 94, VN = 1
 
 Métricas de Avaliação:
-Sensibilidade (Recall): 0.83
-Especificidade: 0.88
-Acurácia: 0.85
-Precisão: 0.91
-F-score: 0.87
+Sensibilidade (Recall): 0.04
+Especificidade: 0.01
+Acurácia: 0.03
+Precisão: 0.04
+F-score: 0.04
 ```
 
 ---
