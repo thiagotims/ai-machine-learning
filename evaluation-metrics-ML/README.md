@@ -70,7 +70,7 @@ Legenda:
 1. Clone este repositório:
     
     ```bash
-    git clone https://github.com/thiagotims/evaluation-metrics-ML.git
+    git clone https://github.com/thiagotims/ai-machine-learning/evaluation-metrics-ML.git
     ```
     
 2. Instale as dependências:
