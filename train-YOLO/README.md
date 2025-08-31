@@ -18,16 +18,22 @@ O objetivo é demonstrar um fluxo completo de:
 5. Exportação do modelo treinado para deploy.
 6. Inferência utilizando os modelos exportados.
 ---
-## 📂 Estrutura de diretórios
+## 📂 Estrutura de diretórios (Google Colab)
 
   Após organizar os arquivos no Google Drive, a pasta final deve ficar assim:
-/MyDrive/coco128/
+
+📁 /MyDrive/coco128/
 
 ├── images/
+
 │ └── train2017/ # imagens do dataset
+
 ├── labels/
+
 │ └── train2017/ # labels em formato YOLO
+
 ├── coco128.yaml # arquivo de configuração do dataset
+
 └── runs/ # resultados de treino e predições
 
 ---
