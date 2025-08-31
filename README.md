@@ -26,3 +26,7 @@
 #### 📌 Cálculo de Métricas de Avaliação de Aprendizado em Machine Learning (📁 evaluation-metrics-ML)
 (Calculating Machine Learning Evaluation Metrics)
 - This project demonstrates how to calculate the main metrics used in evaluating Machine Learning models. It also uses an interactive confusion matrix (with sliders in Jupyter Notebook) to allow visualization and experimentation of the results in real time. This project was implemented as part of the *BairesDev - Machine Learning Training* course project challenge, promoted by BairesDev in partnership with Dio.
+
+#### 📌 Treinamento da Rede YOLOv8 com a base de dados COCO128 no Google Colab (📁 train-YOLO)
+(YOLOv8 Network Training with the COCO128 Database on Google Colab)
+- This project demonstrates the training of a YOLOv8 network using the COCO128 dataset, running entirely on Google Colab and saving results directly to Google Drive. It was implemented as part of the BairesDev - Machine Learning Training course project challenge, promoted by BairesDev in partnership with Dio.
