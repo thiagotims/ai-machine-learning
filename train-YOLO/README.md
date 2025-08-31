@@ -1,6 +1,6 @@
-# 🧠 YOLOv8 + COCO128 no Google Colab
+# 🧠 Treinamento da Rede YOLOv8 com a base de dados COCO128 no Google Colab
 
-Este projeto demonstra o treinamento de uma rede **YOLOv8** utilizando o dataset **COCO128**, rodando **inteiramente no Google Colab** e salvando resultados diretamente no Google Drive.
+Este projeto demonstra o treinamento de uma rede **YOLOv8** utilizando o dataset **COCO128**, rodando **inteiramente no Google Colab** e salvando resultados diretamente no Google Drive. Esse projeto foi implementado no âmbito do desafio de projeto do curso BairesDev - Machine Learning Training promovido pela BairesDev em parceria com a Dio.
 
 ---
 ## 📌 Sobre o projeto
@@ -158,9 +158,8 @@ results = model.train(
 ---
 ## 📷 Resultados da predição
 
-  Aqui ficará a imagem de exemplo com bounding boxes da predição:
+![Output](https://github.com/thiagotims/ai-machine-learning/blob/main/train-YOLO/predictions/247290e3-b4fa-48ef-84d8-5f99a7d2634f.jpeg)
 
-  (substitua pelo caminho da imagem gerada no runs/predictions/)
 
 ----
 ## 📤 Exportação do modelo treinado
