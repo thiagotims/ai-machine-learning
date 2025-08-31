@@ -22,19 +22,16 @@ O objetivo é demonstrar um fluxo completo de:
 
   Após organizar os arquivos no Google Drive, a pasta final deve ficar assim:
 
+
+```bash
 📁 /MyDrive/coco128/
-
 ├── images/
-
 │ └── train2017/ # imagens do dataset
-
 ├── labels/
-
 │ └── train2017/ # labels em formato YOLO
-
 ├── coco128.yaml # arquivo de configuração do dataset
-
 └── runs/ # resultados de treino e predições
+```
 
 ---
 ## 📊 Dataset COCO128
