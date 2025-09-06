@@ -1,6 +1,6 @@
 # 🔎 Sistema de Reconhecimento Facial com FaceScrub
 
-Este projeto apresenta um sistema de *reconhecimento facial de celebridades* desenvolvido em Python, utilizando **TensorFlow/Keras** para treinamento e **MTCNN** para detecção de rostos.   O projeto foi implementado e testado diretamente no **Google Colab**, utilizando o acesso à GPU gratuito da plataforma.
+Este projeto apresenta um sistema de *reconhecimento facial de celebridades* desenvolvido em Python, utilizando *TensorFlow/Keras* para treinamento e *MTCNN* para detecção de rostos. O projeto foi implementado e testado diretamente no *Google Colab*, utilizando o acesso à GPU gratuito da plataforma. Esse projeto foi implementado como "desafio de projeto" do curso BairesDev - Machine Learning Training promovido pela BairesDev em parceria com a Dio.
 
 ---
 ## 📌 Descrição do Projeto
@@ -70,9 +70,24 @@ As classes utilizadas foram as *10 celebridades com mais imagens disponíveis no
 ## 🚀 Como Executar
 
 1. Clone este repositório no seu Google Drive ou ambiente local:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   ```
+ 
+- Este projeto faz parte do repositório **ai-machine-learning**.  
+Para clonar o repositório completo:
+
+```bash
+git clone https://github.com/thiagotims/ai-machine-learning.git
+cd ai-machine-learning/facial-recognition
+````
+
+- Se você quiser clonar apenas a pasta `facial-recognition` (sem baixar o restante do repositório), pode usar **sparse checkout**:
+
+```bash
+git clone --no-checkout https://github.com/thiagotims/ai-machine-learning.git
+cd ai-machine-learning
+git sparse-checkout init --cone
+git sparse-checkout set facial-recognition
+git checkout main
+```
 
 2. Baixe o dataset **FaceScrub** do Kaggle e organize em:
         `/content/drive/MyDrive/facescrub_full/`
