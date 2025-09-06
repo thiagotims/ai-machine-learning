@@ -1,4 +1,6 @@
 
+ ## AI & Machine Learning
+ 
  This repository contains studies and projects of machine learning and artificial intelligence.
  
  #### 📌 Neural Networks (basics) - Curso NLP (USP).ipynb
