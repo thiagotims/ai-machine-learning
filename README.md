@@ -30,3 +30,9 @@
 #### 📌 Treinamento da Rede YOLOv8 com a base de dados COCO128 no Google Colab (📁 train-YOLO)
 (YOLOv8 Network Training with the COCO128 Database on Google Colab)
 - This project demonstrates the training of a YOLOv8 network using the COCO128 dataset, running entirely on Google Colab and saving results directly to Google Drive. It was implemented as part of the BairesDev - Machine Learning Training course project challenge, promoted by BairesDev in partnership with Dio.
+
+#### 📌 Sistema de Reconhecimento Facial com FaceScrub (📁 facial-recognition)
+(Facial Recognition System with FaceScrub)
+- This project presents a celebrity facial recognition system developed in Python, using TensorFlow/Keras for training and MTCNN for face detection. The project was implemented and tested directly on Google Colab, using the platform's free GPU access. This project was implemented as a "project challenge" for the BairesDev - Machine Learning Training course, promoted by BairesDev in partnership with Dio.
+
+
