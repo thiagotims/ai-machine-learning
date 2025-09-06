@@ -86,9 +86,7 @@ As classes utilizadas foram as *10 celebridades com mais imagens disponíveis no
 
 Exemplo de predição em imagem externa:
 
-👉 Aqui será exibida a imagem com **bounding box + nome da celebridade + percentual de confiança**
-
-xzzzzzzzzzz
+![Output](https://github.com/thiagotims/ai-machine-learning/blob/main/facial-recognition/predictions/predictions.png)
 
 ## 🔮 Melhorias Propostas
 - Expandir para todas as 513 classes do FaceScrub (necessário mais memória/infraestrutura).
