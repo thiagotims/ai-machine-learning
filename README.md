@@ -37,4 +37,7 @@
 (Facial Recognition System with FaceScrub)
 - This project presents a celebrity facial recognition system developed in Python, using TensorFlow/Keras for training and MTCNN for face detection. The project was implemented and tested directly on Google Colab, using the platform's free GPU access. This project was implemented as a "project challenge" for the BairesDev - Machine Learning Training course, promoted by BairesDev in partnership with Dio.
 
+#### 📌 Sistema de Recomendação Visual por Similaridade  (📁 image-recommendation-system)
+(Visual Similarity Recommendation System)
+- This project consists of implementing an image-based product recommendation system, developed entirely in Google Colab. It allows users to provide query images and returns visually similar products, considering color, shape, texture, and visual pattern, without relying on textual data such as brand or price. This project was implemented as a "project challenge" for the BairesDev - Machine Learning Training course, promoted by BairesDev in partnership with Dio.
 
