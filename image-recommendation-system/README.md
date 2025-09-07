@@ -48,3 +48,7 @@ Exemplo contendo imagens inseridas (contornadas em vermelho) e as imagens gerada
 Este projeto é de caráter **educacional e experimental**. O dataset **FaceScrub** é público e disponível sob as condições fornecidas pelos autores.
 
 💡 Projeto desenvolvido no **Google Colab** para estudo de **Visão Computacional** e **Deep Learning**.
+
+----
+## Contato
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/thiagotims/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devtim/) [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:thiagotimdev@gmail.com)
