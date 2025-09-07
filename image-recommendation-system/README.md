@@ -36,8 +36,7 @@ Este projeto consiste na implementação de um **sistema de recomendação de pr
 
 Exemplo contendo imagens inseridas (contornadas em vermelho) e as imagens geradas como resultado:
 
-asdasdlasdoasdlkasjdklasjdkljaskldjklasjd
-
+![predictions](https://github.com/thiagotims/ai-machine-learning/blob/main/image-recommendation-system/predictions/recommendations.png)
 
 ---
 ## 📋 Observações
