@@ -1,7 +1,5 @@
 # Sistema de Recomendação Visual por Similaridade 🔎🖼️ 
-[![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)  
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)](https://www.tensorflow.org/)  
-[![Colab](https://img.shields.io/badge/Run%20on-Colab-brightgreen)](https://colab.research.google.com/)
+[![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)   [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)](https://www.tensorflow.org/)  [![Colab](https://img.shields.io/badge/Run%20on-Colab-brightgreen)](https://colab.research.google.com/)
 ## 📝 Descrição
 Este projeto consiste na implementação de um **sistema de recomendação de produtos baseado em imagens**, desenvolvido inteiramente no **Google Colab**.   Ele permite ao usuário fornecer imagens de consulta e retorna produtos visualmente semelhantes, considerando **cor, forma, textura e padrão visual**, sem depender de dados textuais como marca ou preço. Esse projeto foi implementado como "*desafio de projeto*" do curso *BairesDev - Machine Learning Training* promovido pela BairesDev em parceria com a Dio.
 
